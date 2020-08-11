@@ -1,0 +1,15 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Modern porfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ojas Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "node-sass": "^4.14.1"
+  }
+}
