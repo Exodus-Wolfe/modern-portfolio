@@ -1,9 +1,15 @@
 //WideScreens
 @include mediaXL {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 //Desktops and laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 //Tablets and smaller laptops
@@ -14,6 +20,9 @@
     .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
+    }
+    .projects {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
@@ -69,5 +78,9 @@
 @include mediaSm {
   main#home h1 {
     margin-top: 10vh;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
